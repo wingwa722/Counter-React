@@ -1,20 +1,22 @@
 import React, {useState, useEffect} from 'react';
+import { useSelector } from 'react-redux';
 import Counter from './Counter'
 
-function CounterGroup(props) {
+function CounterGroup(state) {
   const [counterList, setCounterList] = useState([]);
+  const size = useSelector(state => state.size)
   
   useEffect(() => {
-    const counters = new Array(props.counterSize).fill(Date.now());
+    const counters = new Array(size).fill(Date.now());
     setCounterList(counters);
-  }, [props.counterSize]);
+  }, [size]);
 
   function increaseSum() {
-      props.increaseSum()
+      //increaseSum()
   }
 
   function decreaseSum() {
-    props.decreaseSum()
+    //decreaseSum()
 }
 
   return (

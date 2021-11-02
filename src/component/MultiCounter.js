@@ -14,11 +14,11 @@ function MultiCounter() {
   }
 
   function increaseSum(){
-    setSum(sum+1);
+    setSum(sum + 1);
   }
 
   function decreaseSum(){
-    setSum(sum-1);
+    setSum(sum - 1);
   }
 
   return (
