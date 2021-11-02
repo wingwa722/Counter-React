@@ -1,0 +1,12 @@
+.Counter
+    {background-color: rgb(228, 206, 248);
+        border: 2px solid;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+.CounterButton{
+    background-color: #a7f7fd;
+    font-size: 30px;
+    border-radius: 50%;
+}

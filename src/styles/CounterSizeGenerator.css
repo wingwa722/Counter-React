@@ -1,0 +1,14 @@
+.CounterSizeGenerator
+    {background-color: rgb(152, 211, 235);
+        border: 2px solid;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+.CounterInput{
+    font-size: 20px;
+}
+
+.CounterGeneratorButton{
+    font-size: 20px;
+}

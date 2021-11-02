@@ -1,9 +1,10 @@
 import React from "react";
+import '../styles/CounterSum.css';
 
 function CounterSum (props){
 
     return(
-        <div>
+        <div className="CounterSum">
             Sum: {props.sum}
         </div>
     );
